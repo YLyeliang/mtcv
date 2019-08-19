@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 from .misc import shift_bboxes_to_stitch, reshape_bboxes
-from mtcv.bbox_ops import merge_bbox,iou,bbox_equa
+from .bbox_ops import merge_bbox,iou,bbox_equa
 
 def bbox_to_patch(bboxes,  # bboxes
                   shiftys,  # sfhitys
