@@ -45,6 +45,7 @@ def imshow_det_bboxes(img,
         win_name (str): The window name.
         wait_time (int): Value of waitKey param.
         out_file (str or None): The filename to write the image.
+        ret (True or False): Whether return drawed image or not.
     """
     assert bboxes.ndim == 2
     assert labels.ndim == 1
